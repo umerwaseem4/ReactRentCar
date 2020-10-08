@@ -44,7 +44,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("https://images.unsplash.com/photo-1580414057403-c5f451f30e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    url("https://images.unsplash.com/photo-1593545567849-0411b5721b55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   position: relative;
   color: #fff;
@@ -60,7 +60,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.9) 100%
     ),
-    url("https://images.unsplash.com/photo-1541348263662-e068662d82af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    url("https://images.unsplash.com/photo-1595412693595-6c2852e16398?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 }
 
 .services__card h2 {
@@ -100,12 +100,12 @@
 
 @media screen and (max-width: 960px) {
   .services {
-    height: 1600px;
+    height: 1400px;
   }
 
   .services h1 {
     font-size: 2rem;
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
 }
 
@@ -115,7 +115,7 @@
   }
 
   .services h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .services__card {
