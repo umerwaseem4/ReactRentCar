@@ -15,9 +15,8 @@ const Footer = () => {
           <div className="footer__link--wrapper">
             <div className="footer__link--items">
               <h2>About Us</h2>
-              <Link to="/sign__up">How it works</Link>{" "}
-              <Link to="/">Testimonials</Link>
-              <Link to="/">Careers</Link> <Link to="/">Caring System</Link>
+              <Link to="/">How it works</Link> <Link to="/">Testimonials</Link>
+              <Link to="/">Customer Caring</Link>
               <Link to="/">Terms of Service</Link>
             </div>
             <div className="footer__link--items">
@@ -28,14 +27,34 @@ const Footer = () => {
           </div>
           <div className="footer__link--wrapper">
             <div className="footer__link--items">
-              <h2>Videos</h2>
-              <Link to="/">Submit Video</Link> <Link to="/">Ambassadors</Link>
-              <Link to="/">Agency</Link> <Link to="/">Influencer</Link>
+              <h2>Cars</h2>
+              <Link to="/">Become BF Driver</Link>{" "}
+              <Link to="/">Requirments</Link>
+              <Link to="/">Education</Link> <Link to="/">Behavior</Link>
             </div>
             <div className="footer__link--items">
               <h2>Social Media</h2>
-              <Link to="/">Instagram</Link> <Link to="/">Facebook</Link>
-              <Link to="/">Youtube</Link> <Link to="/">Twitter</Link>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/_umerwaseem7/"
+              >
+                Instagram
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/umer.waseem.543/"
+              >
+                Facebook
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/unknown12004655"
+              >
+                Twitter
+              </a>
             </div>
           </div>
         </div>
@@ -55,6 +74,7 @@ const Footer = () => {
                 className="social__icon--link"
                 href="https://www.facebook.com/umer.waseem.543/"
                 target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Facebook"
               >
                 <AiFillFacebook />
@@ -64,6 +84,7 @@ const Footer = () => {
                 href="https://www.instagram.com/_umerwaseem7/"
                 target="_blank"
                 aria-label="Instagram"
+                rel="noopener noreferrer"
               >
                 <AiFillInstagram />
               </a>
@@ -72,6 +93,7 @@ const Footer = () => {
                 href="https://twitter.com/unknown12004655"
                 target="_blank"
                 aria-label="Twitter"
+                rel="noopener noreferrer"
               >
                 <AiFillTwitterCircle />
               </a>
@@ -80,6 +102,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/umer-waseem-9088b5182/"
                 target="_blank"
                 aria-label="LinkedIn"
+                rel="noopener noreferrer"
               >
                 <AiFillLinkedin />
               </a>
