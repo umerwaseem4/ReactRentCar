@@ -5,7 +5,7 @@ import "./Button.css";
 const Button = (props) => {
   return (
     <div>
-      <button class="main__btn">
+      <button className="main__btn">
         <Link to={props.path}>{props.title}</Link>
       </button>
     </div>
