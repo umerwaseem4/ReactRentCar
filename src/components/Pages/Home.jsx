@@ -1,5 +1,7 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import HeroSection from "../HeroSection/HeroSection";
+import Services from "../Services/Services";
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
         subTitle="Rent A Car"
         para="Order Now to Boom Journey"
       />
+      <Services />
+      <Footer />
     </div>
   );
 };
