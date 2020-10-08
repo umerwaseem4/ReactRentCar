@@ -4,7 +4,11 @@ import HeroSection from "../HeroSection/HeroSection";
 const Home = () => {
   return (
     <div>
-      <HeroSection />
+      <HeroSection
+        title="NEXT GENERATION"
+        subTitle="Rent A Car"
+        para="Order Now to Boom Journey"
+      />
     </div>
   );
 };
